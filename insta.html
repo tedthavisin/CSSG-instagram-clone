@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Profile Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+        }
+        .profile-header img.logo {
+            width: 150px;
+            margin-right: 20px;
+        }
+        .profile-info {
+            flex-grow: 1;
+        }
+        .profile-info h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .profile-info p.bio {
+            margin: 10px 0;
+            color: #888;
+        }
+        .profile-stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .profile-stats div {
+            text-align: center;
+        }
+        .profile-stats div span {
+            display: block;
+            font-weight: bold;
+        }
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            margin-top: 20px;
+        }
+        .photo-grid img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Logo" class="logo">
+        <div class="profile-info">
+            <h1>ted_thavisin</h1>
+            <p class="bio">unc 2027</p>
+            <div class="profile-stats">
+                <div>
+                    <span>8</span>
+                    posts
+                </div>
+                <div>
+                    <span>775</span>
+                    followers
+                </div>
+                <div>
+                    <span>814</span>
+                    following
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photo-grid">
+        <img src="https://picsum.photos/200/300?random=1" alt="Photo 1">
+        <img src="https://picsum.photos/200/300?random=2" alt="Photo 2">
+        <img src="https://picsum.photos/200/300?random=3" alt="Photo 3">
+        <img src="https://picsum.photos/200/300?random=4" alt="Photo 4">
+        <img src="https://picsum.photos/200/300?random=5" alt="Photo 5">
+        <img src="https://picsum.photos/200/300?random=6" alt="Photo 6">
+        <img src="https://picsum.photos/200/300?random=7" alt="Photo 7">
+        <img src="https://picsum.photos/200/300?random=8" alt="Photo 8">
+        <img src="https://picsum.photos/200/300?random=9" alt="Photo 9">
+    </div>
+</body>
+</html>
